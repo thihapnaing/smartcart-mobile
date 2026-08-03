@@ -1,0 +1,30 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "main", "develop" ]
+  pull_request:
+    branches: [ "main", "develop" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Grant execute permission for gradlew
+        # This is crucial! Sometimes Mac/Windows strips the execute permission from this file.
+        run: chmod +x gradlew
+
+      - name: Build Debug APK with Gradle
+        # This compiles the app and ensures there are no Kotlin errors!
+        run: ./gradlew assembleDebug
