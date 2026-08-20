@@ -1,5 +1,4 @@
 # SmartCart Delivery Mobile App
-goto https://github.com/PwtanSG/SmartMartDeliveryApp
 
 An Android application for SmartMart delivery personnel to view assigned deliveries, update delivery status, capture proof of delivery, and receive delivery notifications.
 
@@ -119,10 +118,10 @@ After login, the application registers its latest FCM device token with the Spri
 - Running SmartMart Spring Boot backend
 - Firebase configuration file: `google-services.json`
 
-## Mobile Application screenshoot
+## Application screenshoot
 ![SmartCart Delivery App Screenshots](https://pwt-bucket-s3.s3.us-east-1.amazonaws.com/delivery-app-screen-shoot.png)
 
-## Mobile Application demo video
+## Application demo video
 [![SmartCart Delivery App Demo](https://pwt-bucket-s3.s3.us-east-1.amazonaws.com/SmartCart-delivery-app.png)](https://youtu.be/anqRexRswLU)
 
 ## Project Structure
@@ -167,11 +166,10 @@ Spring Boot backend: <BACKEND_REPOSITORY_URL>
 
 **Actor:** Merchant
 
-**Precondition:** The customer has placed and paid for an order. The order status is `PAID`.
-
 ## Merchant Order Delivery Management — Web Application
+![Merchant Order Delivery Management](https://pwt-bucket-s3.s3.us-east-1.amazonaws.com/Merchant-delivery-web.png)
 
-![Merchant Order Delivery Management](https://pwt-bucket-s3.s3.us-east-1.amazonaws.com/delivery-app-screen-shoot.png)
+**Precondition:** The customer has placed and paid for an order. The order status is `PAID`.
 
 ### Main Flow
 
