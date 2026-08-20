@@ -1,4 +1,4 @@
-# SmartCart Delivery Mobile App
+# SmartCart Delivery Mobile App (goto https://github.com/PwtanSG/SmartMartDeliveryApp)
 
 An Android application for SmartMart delivery personnel to view assigned deliveries, update delivery status, capture proof of delivery, and receive delivery notifications.
 
