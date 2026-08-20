@@ -166,6 +166,10 @@ Spring Boot backend: <BACKEND_REPOSITORY_URL>
 
 **Precondition:** The customer has placed and paid for an order. The order status is `PAID`.
 
+## Merchant Order Delivery Management — Web Application
+
+![Merchant Order Delivery Management](https://pwt-bucket-s3.s3.us-east-1.amazonaws.com/delivery-app-screen-shoot.png)
+
 ### Main Flow
 
 1. The merchant receives the customer's paid order through the SmartCart web application.
