@@ -2,7 +2,7 @@
 
 ## goto https://github.com/PwtanSG/SmartMartDeliveryApp
 
-An Android application for SmartMart delivery personnel to view assigned deliveries, update delivery status, capture proof of delivery, and receive delivery notifications.
+An Android application for SmartMart delivery personnel managed assigned delivery jobs. To view assigned deliveries, update delivery status workflow from 'PACKED -> PICK UP -> Delivered', receives push notification when Merchant assign delivery job, using mobile camera function to scan barcode to ease processes, camera to capture proof of delivery and chatbot support assistant.
 
 ## Main Features
 - Delivery-person account registration
